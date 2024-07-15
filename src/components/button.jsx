@@ -9,6 +9,7 @@ const Button = ({ label, primary }) => {
     border: 'none',
     borderRadius: '5px',
     backgroundColor:'yellow'
+    
   };
 
   return <button style={style}>{label} </button>;
