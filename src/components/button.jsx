@@ -10,7 +10,7 @@ const Button = ({ label, primary }) => {
     borderRadius: '5px',
   };
 
-  return <button style={style}>{label}</button>;
+  return <button style={style}>{label} chromatic</button>;
 };
 
 export default Button;
